@@ -47,9 +47,7 @@ namespace ConsoleApp4
         }
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            Console.Clear();
-            if (n == n)
+            if (true)
             {
                 
                 for (int i = 1; i < 4; i++)
@@ -58,7 +56,8 @@ namespace ConsoleApp4
                 }
                 
             }
-            if (n == n)
+            Console.WriteLine();
+            if (true)
             {
                 for (int i = 1; i < 5; i++)
                 {
@@ -82,14 +81,60 @@ namespace ConsoleApp4
                             }
                         }
                     }
-
                 }
             }
-            if (n == n)
+            Console.WriteLine();
+            if (true)
             {
-                for (int i = 1; i < 10; i++)
+                for (int i1 = 1; i1 < 4; i1++)
                 {
-                    Console.WriteLine($"{1} {i}");
+                    int n = 1;
+                    int m = 1;
+                    Console.WriteLine($"{n} {m} {i1}");
+                    if( i1 == 3)
+                    {
+                        for (int i2 = 1; i2 < 4; i2++)
+                        Console.WriteLine($"{n} {m*2} {i2}");
+                        if (i1 == 3)
+                        {
+                            for (int i3 = 1; i3 < 4; i3++)
+                                Console.WriteLine($"{n} {m*3} {i3}");
+                            if (i1 == 3)
+                            {
+                                for (int i4 = 1; i4 < 4; i4++)
+                                    Console.WriteLine($"{n*2} {m} {i4}");
+                                if (i1 == 3)
+                                {
+                                    for (int i5 = 1; i5 < 4; i5++)
+                                        Console.WriteLine($"{n*2} {m*2} {i5}");
+                                    if (i1 == 3)
+                                    {
+                                        for (int i6 = 1; i6 < 4; i6++)
+                                            Console.WriteLine($"{n * 2} {m * 3} {i6}");
+                                        if (i1 == 3)
+                                        {
+                                            for (int i7 = 1; i7 < 4; i7++)
+                                                Console.WriteLine($"{n * 3} {m} {i7}");
+
+                                            if (i1 == 3)
+                                            {
+                                                for (int i8 = 1; i8 < 4; i8++)
+                                                    Console.WriteLine($"{n * 3} {m * 2} {i8}");
+                                                if (i1 == 3)
+                                                {
+                                                    for (int i9 = 1; i9 < 4; i9++)
+                                                        Console.WriteLine($"{n * 3} {m * 3} {i9}");
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                
+                            }
+                        }
+                       
+                    }
+                      
                 }
 
             }
